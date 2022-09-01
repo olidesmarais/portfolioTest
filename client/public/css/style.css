@@ -1,0 +1,74 @@
+html {
+    font-size: 16px;
+}
+
+header {
+    /* width:60%;
+    margin: 0 auto; */
+    padding: 0 16% 0 24%;
+}
+
+h1 {
+    font-size: min(13vw, 8rem);
+    /*font-size: 800%;*/
+}
+
+h2 {
+    font-size: min(7vw, 500%);
+    /*font-size: 500%;*/
+}
+
+h3 {
+    font-size: min(5vw, 350%);
+    /*font-size: 350%;*/
+}
+
+h4 {
+    font-size: min(3vw, 200%);
+    /*font-size: 200%;*/
+}
+
+h5 {
+    /*font-size: 130%;*/
+    font-size: min(2.5vw, 130%);
+}
+
+.headerTitre {
+    padding: 30vh 0;
+}
+
+.headerTexte {
+    padding: 20vh 0;
+}
+
+.txtNav {
+    padding: 0 16% 0 24%;
+}
+
+.nav-item {
+    width: 25%;
+    display: inline;
+    border-style: solid;
+    border-color: #6c757d;
+    border-width: 1px;
+    text-align:center;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-item {
+    font-size: min(3vw, 150%);
+}
+
+.pale {
+    background-color: white;
+    color: #495057;
+}
+
+.fonce {
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
